@@ -87,7 +87,6 @@ struct LocationCallout: LocationCalloutProtocol {
             // Create the localization string key
             if let direction = geocoderResult.heading.value {
                 let cardinal = CardinalDirection(direction: direction)!.rawValue
-            
                 var prefix = "facing"
             
                 if geocoderResult.heading.isCourse {
@@ -98,6 +97,11 @@ struct LocationCallout: LocationCalloutProtocol {
                 let string = GDLocalizedString("directions.\(prefix).\(cardinal)")
             
                 sounds.append(TTSSound(string, compass: direction))
+                
+                
+                let speed = location.speed
+                let speedString = "moving at \(speed) mph"
+                sounds.append(TTSSound(speedString))
             
                 if let roadComponents = roadComponents {
                     let string = GDLocalizedString("directions.nearest_road_name_is_distance_direction", roadComponents.name, roadComponents.formattedDistance, roadComponents.encodedDirection)
