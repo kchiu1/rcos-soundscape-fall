@@ -88,7 +88,7 @@ struct LocationCallout: LocationCalloutProtocol {
             if let direction = geocoderResult.heading.value {
                 let cardinal = CardinalDirection(direction: direction)!.rawValue
                 var prefix = "facing"
-            
+
                 if geocoderResult.heading.isCourse {
                     prefix = (automotive ? "traveling" : "heading")
                 }
@@ -96,6 +96,7 @@ struct LocationCallout: LocationCalloutProtocol {
                 // "directions.traveling.ne" -> "Traveling northeast"
                 let string = GDLocalizedString("directions.\(prefix).\(cardinal)")
             
+                //Attempt at making TTS work
                 sounds.append(TTSSound(string, compass: direction))
                 
                 

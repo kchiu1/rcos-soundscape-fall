@@ -1,0 +1,12 @@
+How to open the project on xcode. 
+https://github.com/soundscape-community/soundscape/blob/main/docs/ios-client/onboarding.md
+(azure stuff seems to not be a requirement, you can run the code with just cloning and opening guidedogs.xcodeproj)
+
+apps\ios\GuideDogs\Code\Generators\Callouts\Location Callouts\LocationCallout.swift
+seems to be the source of the text to speech.
+
+potential issues assigned 78, 79, 82, 40
+Audio beacon 15m cut-off #78
+Add street name and closest house number data from OSM #79
+Provide more filtering options of nearby places e.g., places to eat, parks, businesses etc #82
+Auditory speedometer #40

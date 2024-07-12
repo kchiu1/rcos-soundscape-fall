@@ -1,0 +1,24 @@
+what I did pre mid year commit summary
+
+0. Look through the code
+	run it on xcode simulator
+	learn how swift works
+
+1. set up ssh (don't really know how to use it)
+	1.1 generate keys (dead end)
+	1.1.1 ssh key-gen
+	1.1.2 copypasting identical keys 
+	ssh username@hostname
+
+	1.2 Connect directly -> just needed the laptop password.
+
+2. identify issue 
+	78/40
+
+3. Coding
+	I didn't code since I was trying to set up ssh and it seems to be a dead end.
+
+3.1 Forked repo (this is the only thing in it)
+
+4. Future plans
+	If i don't figure out ssh I will just take it and work on vscode and push to my fork
