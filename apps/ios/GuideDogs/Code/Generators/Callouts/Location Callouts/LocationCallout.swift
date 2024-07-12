@@ -96,10 +96,9 @@ struct LocationCallout: LocationCalloutProtocol {
                 // "directions.traveling.ne" -> "Traveling northeast"
                 let string = GDLocalizedString("directions.\(prefix).\(cardinal)")
             
-                //Attempt at making TTS work
                 sounds.append(TTSSound(string, compass: direction))
                 
-                
+                //Attempt at making TTS work
                 let speed = location?.speed
                 let speedString = "moving at \(String(describing: speed)) mph"
                 sounds.append(TTSSound(speedString))
