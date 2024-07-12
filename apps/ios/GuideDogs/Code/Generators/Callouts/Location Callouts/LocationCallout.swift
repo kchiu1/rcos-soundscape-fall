@@ -99,8 +99,8 @@ struct LocationCallout: LocationCalloutProtocol {
                 sounds.append(TTSSound(string, compass: direction))
                 
                 
-                let speed = location.speed
-                let speedString = "moving at \(speed) mph"
+                let speed = location?.speed
+                let speedString = "moving at \(String(describing: speed)) mph"
                 sounds.append(TTSSound(speedString))
             
                 if let roadComponents = roadComponents {
