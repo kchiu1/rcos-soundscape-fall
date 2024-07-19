@@ -2,8 +2,14 @@ How to open the project on xcode.
 https://github.com/soundscape-community/soundscape/blob/main/docs/ios-client/onboarding.md
 (azure stuff seems to not be a requirement, you can run the code with just cloning and opening guidedogs.xcodeproj)
 
+What everything does.
+https://github.com/soundscape-community/soundscape/blob/main/docs/ios-client/overview.md
+
 apps\ios\GuideDogs\Code\Generators\Callouts\Location Callouts\LocationCallout.swift
 seems to be the source of the text to speech.
+
+apps\ios\GuideDogs\Code\Visual UI\View Controllers\POI Table\NearbyTableViewController.swift
+where all the settings functionality
 
 potential issues assigned 78, 79, 82, 40
 Audio beacon 15m cut-off #78
