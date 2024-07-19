@@ -20,6 +20,7 @@ class SettingsViewController: BaseTableViewController {
         case troubleshooting = 4
         case about = 5
         case telemetry = 6
+        case distance = 7
     }
     
     private enum CalloutsRow: Int, CaseIterable {
@@ -36,6 +37,7 @@ class SettingsViewController: BaseTableViewController {
         IndexPath(row: 3, section: Section.general.rawValue): "volumeSettings",
         IndexPath(row: 4, section: Section.general.rawValue): "manageDevices",
         IndexPath(row: 5, section: Section.general.rawValue): "siriShortcuts",
+        IndexPath(row: 6, section: Section.general.rawValue): "distanceSettings",
         
         IndexPath(row: 0, section: Section.audio.rawValue): "mixAudio",
 
@@ -124,8 +126,6 @@ class SettingsViewController: BaseTableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: identifier ?? "default", for: indexPath) as! MixAudioSettingCell
             cell.delegate = self
             return cell
-        case .distance: 
-            return cell            
         default:
             return tableView.dequeueReusableCell(withIdentifier: identifier ?? "default", for: indexPath)
         }
@@ -145,7 +145,7 @@ class SettingsViewController: BaseTableViewController {
         case .streetPreview: return GDLocalizedString("preview.title")
         case .troubleshooting: return GDLocalizedString("settings.section.troubleshooting")
         case .telemetry: return GDLocalizedString("settings.section.telemetry")
-        case .distance: return "Distance"
+        case .distance: return "setting"
         }
     }
     
@@ -156,7 +156,6 @@ class SettingsViewController: BaseTableViewController {
         case .audio: return GDLocalizedString("settings.audio.mix_with_others.description")
         case .streetPreview: return GDLocalizedString("preview.include_unnamed_roads.subtitle")
         case .telemetry: return GDLocalizedString("settings.section.telemetry.footer")
-        case .distance: return "distance"
         default: return nil
         }
     }
