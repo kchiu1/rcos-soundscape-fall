@@ -80,13 +80,14 @@ class SettingsViewController: BaseTableViewController {
         guard let sectionType = Section(rawValue: section) else { return 0 }
         
         switch sectionType {
-        case .general: return 6
+        case .general: return 7
         case .audio: return 1
         case .callouts: return SettingsContext.shared.automaticCalloutsEnabled ? 4 : 1
         case .streetPreview: return 1
         case .troubleshooting: return 1
         case .about: return 1
         case .telemetry: return 1
+        case .distance: return 1 //this is a temp name.
         }
     }
     
@@ -112,7 +113,7 @@ class SettingsViewController: BaseTableViewController {
             }
             
             return cell
-            
+             
         case .telemetry:
             let cell = tableView.dequeueReusableCell(withIdentifier: identifier ?? "default", for: indexPath) as! TelemetrySettingsTableViewCell
             cell.parent = self
@@ -123,7 +124,8 @@ class SettingsViewController: BaseTableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: identifier ?? "default", for: indexPath) as! MixAudioSettingCell
             cell.delegate = self
             return cell
-            
+        case .distance: 
+            return cell            
         default:
             return tableView.dequeueReusableCell(withIdentifier: identifier ?? "default", for: indexPath)
         }
@@ -143,6 +145,7 @@ class SettingsViewController: BaseTableViewController {
         case .streetPreview: return GDLocalizedString("preview.title")
         case .troubleshooting: return GDLocalizedString("settings.section.troubleshooting")
         case .telemetry: return GDLocalizedString("settings.section.telemetry")
+        case .distance: return "Distance"
         }
     }
     
@@ -153,6 +156,7 @@ class SettingsViewController: BaseTableViewController {
         case .audio: return GDLocalizedString("settings.audio.mix_with_others.description")
         case .streetPreview: return GDLocalizedString("preview.include_unnamed_roads.subtitle")
         case .telemetry: return GDLocalizedString("settings.section.telemetry.footer")
+        case .distance: return "distance"
         default: return nil
         }
     }
