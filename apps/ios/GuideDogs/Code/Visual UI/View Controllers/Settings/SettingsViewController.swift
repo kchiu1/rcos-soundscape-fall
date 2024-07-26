@@ -38,7 +38,6 @@ class SettingsViewController: BaseTableViewController {
         IndexPath(row: 4, section: Section.general.rawValue): "manageDevices",
         IndexPath(row: 5, section: Section.general.rawValue): "siriShortcuts",
         IndexPath(row: 6, section: Section.general.rawValue): "distanceSettings",
-        
         IndexPath(row: 0, section: Section.audio.rawValue): "mixAudio",
 
         IndexPath(row: CalloutsRow.all.rawValue, section: Section.callouts.rawValue): "allCallouts",
@@ -126,6 +125,9 @@ class SettingsViewController: BaseTableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: identifier ?? "default", for: indexPath) as! MixAudioSettingCell
             cell.delegate = self
             return cell
+        case .distance:
+            let cell = tableView.dequeueReusableCell(withIdentifier: identifier ?? "default", for: indexPath) as! DistanceSettingsCell
+            return cell
         default:
             return tableView.dequeueReusableCell(withIdentifier: identifier ?? "default", for: indexPath)
         }
@@ -145,7 +147,7 @@ class SettingsViewController: BaseTableViewController {
         case .streetPreview: return GDLocalizedString("preview.title")
         case .troubleshooting: return GDLocalizedString("settings.section.troubleshooting")
         case .telemetry: return GDLocalizedString("settings.section.telemetry")
-        case .distance: return "setting"
+        case .distance: return "distance setting"
         }
     }
     

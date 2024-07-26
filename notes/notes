@@ -14,6 +14,8 @@ where all the settings functionality
 potential issues assigned 78, 79, 82, 40
 Audio beacon 15m cut-off #78
     - Idea: Try and make a new settings menu to manually change the button up to the user.
+    - Location: apps\ios\GuideDogs\Code\Data\Destination Manager\DestinationManager.swift 
+    - Settings Menu Location: apps\ios\GuideDogs\Code\Visual UI\View Controllers\Settings\SettingsViewController.swift
 Add street name and closest house number data from OSM #79
 Provide more filtering options of nearby places e.g., places to eat, parks, businesses etc #82
 Auditory speedometer #40
