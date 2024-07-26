@@ -13,6 +13,7 @@ where all the settings functionality
 
 potential issues assigned 78, 79, 82, 40
 Audio beacon 15m cut-off #78
+    - Idea: Try and make a new settings menu to manually change the button up to the user.
 Add street name and closest house number data from OSM #79
 Provide more filtering options of nearby places e.g., places to eat, parks, businesses etc #82
 Auditory speedometer #40
