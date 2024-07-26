@@ -17,6 +17,8 @@ extension Notification.Name {
     static let disableDestinationGeofence = Notification.Name("GDADisableDestinationGeofence")
     static let destinationGeofenceDidTrigger = Notification.Name("GDADestinationGeofenceDidTrigger")
     static let beaconInBoundsDidChange = Notification.Name("GDABeaconInBoundsDidChange")
+    static let leaveImmediateVicinityDistanceDidChange = Notification.Name("GDALeaveImmediateVicinityDistanceDidChange")
+    static let enterImmediateVicinityDistanceDidChange = Notification.Name("GDAEnterImmediateVicinityDistanceDidChange")
 }
 
 enum DestinationManagerError: Error {
@@ -57,6 +59,25 @@ class DestinationManager: DestinationManagerProtocol {
             UserDefaults.standard.set(newValue, forKey: DestinationManager.Keys.destinationKey)
         }
     }
+
+    static var LeaveImmediateVicinityDistance: CLLocationDistance {
+        get {
+            return UserDefaults.standard.double(forKey: "LeaveImmediateVicinityDistance") != 0 ? UserDefaults.standard.double(forKey: "LeaveImmediateVicinityDistance") : 30.0
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: "LeaveImmediateVicinityDistance")
+        }
+    }
+
+    static var EnterImmediateVicinityDistance: CLLocationDistance {
+        get {
+            return UserDefaults.standard.double(forKey: "EnterImmediateVicinityDistance") != 0 ? UserDefaults.standard.double(forKey: "EnterImmediateVicinityDistance") : 15.0
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: "EnterImmediateVicinityDistance")
+        }
+    }
+
     
     var isDestinationSet: Bool {
         return destinationKey != nil
