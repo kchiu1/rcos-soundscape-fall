@@ -6,16 +6,18 @@ Audio beacon 15m cut-off #78
     - Settings Menu Location: apps\ios\GuideDogs\Code\Visual UI\View Controllers\Settings\SettingsViewController.swift
 
 CLL location is from here.
-    private struct BeaconArgs {
-        let loc: CLLocation
-        let heading: Heading
-        var startMelody: Bool
-        var endMelody: Bool
-    }
-
+private struct BeaconArgs {
+    let loc: CLLocation
+    let heading: Heading
+    var startMelody: Bool
+    var endMelody: Bool
+}
+It seems to represent the location data, but this program is coded kinda complex.
 
 static let LeaveImmediateVicinityDistance: CLLocationDistance = 30.0
 static let EnterImmediateVicinityDistance: CLLocationDistance = 15.0 <- the key to fixing issue #78
+
+NOTE: THEY ARE STATIC MEANING THEY CANNOT BE CHANGED. THIS MEANS USER INPUT TO CHANGE THIS IWILL BE INCREDIBLY DIFFIUCLY (STILL DO NOT KNOW HOW TO FIX THIS)
 
 To fix #78, we need to edit the static variables, which I am not sure how. It will not take it if its not static.
 I tried a few things, but it hasn't really worked as of now. New menu setting still doesn't work.
