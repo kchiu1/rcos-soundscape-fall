@@ -38,6 +38,8 @@ class DestinationManager: DestinationManagerProtocol {
         static let geofenceDidEnter = "GDADestinationGeofenceDidEnterKey"
         static let destinationKey = "DestinationReferenceKey"
         static let isBeaconInBounds = "IsBeaconInBounds"
+        static let leaveDistance = "LeaveImmediateVicinityDistance"
+        static let enterDistance = "EnterImmediateVicinityDistance"
     }
     
     // MARK: Args for starting beacons
@@ -62,19 +64,19 @@ class DestinationManager: DestinationManagerProtocol {
 
     static var LeaveImmediateVicinityDistance: CLLocationDistance {
         get {
-            return UserDefaults.standard.double(forKey: "LeaveImmediateVicinityDistance") != 0 ? UserDefaults.standard.double(forKey: "LeaveImmediateVicinityDistance") : 30.0
+            return UserDefaults.standard.double(forKey: DestinationManager.Keys.leaveDistance) > 0 ? UserDefaults.standard.double(forKey: DestinationManager.Keys.leaveDistance) : 30.0
         }
         set {
-            UserDefaults.standard.set(newValue, forKey: "LeaveImmediateVicinityDistance")
+            UserDefaults.standard.set(newValue, forKey: DestinationManager.Keys.leaveDistance)
         }
     }
 
     static var EnterImmediateVicinityDistance: CLLocationDistance {
         get {
-            return UserDefaults.standard.double(forKey: "EnterImmediateVicinityDistance") != 0 ? UserDefaults.standard.double(forKey: "EnterImmediateVicinityDistance") : 15.0
+            return UserDefaults.standard.double(forKey: DestinationManager.Keys.enterDistance) > 0 ? UserDefaults.standard.double(forKey: DestinationManager.Keys.enterDistance) : 15.0
         }
         set {
-            UserDefaults.standard.set(newValue, forKey: "EnterImmediateVicinityDistance")
+            UserDefaults.standard.set(newValue, forKey: DestinationManager.Keys.enterDistance)
         }
     }
 
