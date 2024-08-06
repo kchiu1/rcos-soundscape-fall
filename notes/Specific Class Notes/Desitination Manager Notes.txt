@@ -1,5 +1,13 @@
 Destination Manager
 
+
+MAIN STUFF:
+Destination maanger takes charge of destination methods (as the name implies).
+Basically it checks where you are and tells you if you are there.
+Right now, there is a 15 meter cutoff, and one of the issues wants to modify this
+It also manages where the user sets the destination that they are nearby to.
+
+ISSUES:
 Audio beacon 15m cut-off #78
     - Idea: Try and make a new settings menu to manually change the button up to the user.
     - Location: apps\ios\GuideDogs\Code\Data\Destination Manager\DestinationManager.swift 
@@ -21,5 +29,4 @@ NOTE: THEY ARE STATIC MEANING THEY CANNOT BE CHANGED. THIS MEANS USER INPUT TO C
 
 To fix #78, we need to edit the static variables, which I am not sure how. It will not take it if its not static.
 I tried a few things, but it hasn't really worked as of now. New menu setting still doesn't work.
-
 

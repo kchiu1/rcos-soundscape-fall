@@ -1,0 +1,20 @@
+Callout Notes
+
+TTS Sounds
+    apps\ios\GuideDogs\Code\Audio\Sounds\TTSSound.swift
+
+Callouts
+The TTS feature of Soundscape.
+Takes in data from the user -> converts it to a TTS
+Uses GDLocalizedString.
+Essentially, GDLocalizedString makes the TTS return a TTS of specified language.
+This makes editing text really difficult and annoying because you would need to make TTS for every language, which is rough.
+
+To remedy this, you could just make everything in english (yay america!)
+But for this to work, anytime you want to add TTS (EG speed the user is going)
+you need to add GDLocalizedString entries each time.
+
+I made an attempt at editing the TTS but I couldn't figure out how to test moving on XCode.
+If I had more time (E.G it was main semester, I would be able to maybe. I am still not fluent in swift)
+
+I think GD stands for guide dogs lol

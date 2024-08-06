@@ -1,0 +1,16 @@
+Getting Help
+
+To setup, first go to the docs folder.
+
+In here, theres onboarding.md, overview.md, and a bunch of "useful" documents to help you get started
+Realistically, only onboarding will help you though the installation process
+
+It will tell you to install Microsoft azure, but none of us really did it or know what it does.
+
+TLDR:
+install XCode
+install XCode commandline tools (i don't think you need this?)
+Open GuideDogs.xcworkspace
+
+Thats it LOL
+You can do more but not sure what they do
