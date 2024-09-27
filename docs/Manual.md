@@ -35,8 +35,11 @@ This document describes how to operate the Soundscape App.
   - Upon selecting a Location users are able to access several other features.
     - ```Start Audio Beacon``` starts an Audio Beacon in the location selected.
     - ```Save as Marker``` allows the user to set the location selected as a marker.
-    - ```Soundscape Street Preview``` essentially gives a streetview of the area (PLEASE VERIFY).
+    - ```Soundscape Street Preview``` essentially gives a streetview of the area ```(PLEASE VERIFY)```.
     - ```Share``` allows users to share the location selected.    
+
+#### Audio Beacon
+  -  ```Honestly I don't know we need to test this.```
 
 ## Homepage Functions
 
@@ -53,3 +56,4 @@ This document describes how to operate the Soundscape App.
 
 #### Suggestion
   - Gives users a suggestion of what they can do without having to access the suggested feature through clicking throu menus.
+  - This only appears if the user has at least one route.
