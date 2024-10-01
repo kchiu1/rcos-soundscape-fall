@@ -1,14 +1,14 @@
 # Soundscape User Manual
 
-This document describes how to operate the Soundscape App.
+This document describes how to operate the Soundscape App and access its features.
 
 ## Overview
 
-[Soundscape Community](https://apps.apple.com/us/app/soundscape-community/id6449701760) is an IOS app on the app store.
+[Soundscape Community](https://apps.apple.com/us/app/soundscape-community/id6449701760) is an IOS app on the app store. [[Website](https://soundscape.services/)]
 
 ## Purpose
 
-- The purpose of the app is to help visually impaired people navigate their surrroundings using audio cues from "beacons."
+- The purpose of the app is to help visually impaired people navigate their surrroundings using audio cues from "beacons". 
 - The app calls out points of interests in your surroundings allowing users to appreciate their surroundings audibly
 - Users, Businesses, and Local Governments can place their own audio beacons to allow users to enhance the experience
 
@@ -76,6 +76,16 @@ This document describes how to operate the Soundscape App.
 #### Settings
 
 #### Help & Tutorials
+  - Help and tutorials gives general advice on how to use the functions of the app.
+  - There are mini tutorials for:
+    - Configuring Soundscape
+    - Beacons and Callouts
+    - Home screen Buttons
+    - Markers & Routes
+    - Frequently Asked Questions
+    - Tutorials
+    - More Help
+  - These sections provide help to new users.
 
 #### Send Feedback
 
