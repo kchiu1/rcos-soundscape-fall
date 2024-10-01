@@ -70,6 +70,16 @@ This document describes how to operate the Soundscape App and access its feature
 #### Settings
 
 #### Help & Tutorials
+  - Help and tutorials gives general advice on how to use the functions of the app.
+  - There are mini tutorials for:
+    - Configuring Soundscape
+    - Beacons and Callouts
+    - Home screen Buttons
+    - Markers & Routes
+    - Frequently Asked Questions
+    - Tutorials
+    - More Help
+  - These sections provide help to new users.
 
 #### Send Feedback
 
