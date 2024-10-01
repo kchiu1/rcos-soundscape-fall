@@ -57,3 +57,22 @@ This document describes how to operate the Soundscape App.
 #### Suggestion
   - Gives users a suggestion of what they can do without having to access the suggested feature through clicking throu menus.
   - This only appears if the user has at least one route.
+
+## Sidebar
+
+#### Head Tracking Headphones
+- Gives user two options to choose from: Check Your Headphones & Forget This Device
+- Check your headphones
+
+
+#### Recreational Activities
+
+#### Settings
+
+#### Help & Tutorials
+
+#### Send Feedback
+
+#### Rate
+
+#### Share
