@@ -61,11 +61,17 @@ This document describes how to operate the Soundscape App.
 ## Sidebar
 
 #### Head Tracking Headphones
-- Gives user two options to choose from: Check Your Headphones & Forget This Device
-- Check your headphones
-
+- Gives user two options to choose from: ```Check Your Headphones``` & ```Forget This Device```
+- ```Check Your Headphones```
+  - Creates an audio beacon to the user's right to test if the headphones are working
+  - If the user turns his head to the beacon then a ding sound is played
+  - After testing it presents a button to allow the user to return back to homepage
+- ```Forget This Device```
+  - Disconnects the user's headphones from soundscape
+  - Headphones can be reconnected after
 
 #### Recreational Activities
+- Currently In Development
 
 #### Settings
 
