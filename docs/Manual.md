@@ -81,7 +81,11 @@ This document describes how to operate the Soundscape App and access its feature
   - ```Voice```
     - Change the Speaking rate and voice of operator
   - ```Audio Beacon```
-    - 
+    - Allows the user to enable ```Departure and Arrival Cues```
+    - Change the sound (audio style) of the audio beacon
+    - Enable Haptic Styles (Wand or Pulse)
+      - Vibrate phone
+
 ##### Media Controls
 
 ##### Manage Callouts
