@@ -72,8 +72,28 @@ This document describes how to operate the Soundscape App and access its feature
 
 #### Recreational Activities
 - Currently In Development
+- Organizations can create their own soundscape-based experiences
 
 #### Settings
+##### General Settings
+  - ```Language & Region```
+    - Changes your language and units of measurements(imperial or metric)
+  - ```Voice```
+    - Change the Speaking rate and voice of operator
+  - ```Audio Beacon```
+    - 
+##### Media Controls
+
+##### Manage Callouts
+
+##### Soundscape Street Preview
+
+##### Troubleshooting
+
+##### About
+
+##### Telemetry
+
 
 #### Help & Tutorials
   - Help and tutorials gives general advice on how to use the functions of the app.
