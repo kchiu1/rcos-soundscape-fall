@@ -58,6 +58,9 @@ This document describes how to operate the Soundscape App and access its feature
   - Gives users a suggestion of what they can do without having to access the suggested feature through clicking throu menus.
   - This only appears if the user has at least one route.
 
+#### Sleeping
+  - On the top right of the opening menu, there is a Sleep menu, where the app disables UI and only has 2 buttons ```Wake On Leave``` and ```Wake Up Now```, which do as their names describe. 
+
 ## Sidebar
 
 #### Head Tracking Headphones
@@ -78,17 +81,23 @@ This document describes how to operate the Soundscape App and access its feature
 #### Help & Tutorials
   - Help and tutorials gives general advice on how to use the functions of the app.
   - There are mini tutorials for:
-    - Configuring Soundscape
-    - Beacons and Callouts
-    - Home screen Buttons
-    - Markers & Routes
-    - Frequently Asked Questions
-    - Tutorials
-    - More Help
+    - ```Configuring Soundscape```
+    - ```Beacons and Callouts```
+    - ```Home screen Buttons```
+    - ```Markers & Routes```
+    - ```Frequently Asked Questions```
+    - ```Tutorials```
+    - ```More Help```
   - These sections provide help to new users.
 
 #### Send Feedback
+  - Allows users to send feedback to the developers through email.
 
 #### Rate
+  - Redirects user to App Store to rate
 
 #### Share
+  - Opens the IOS ```share``` menu.
+
+#### Check Audio
+  - Plays a sound to check if user audio is working (??)
