@@ -61,6 +61,15 @@ This document describes how to operate the Soundscape App and access its feature
 #### Sleeping
   - On the top right of the opening menu, there is a Sleep menu, where the app disables UI and only has 2 buttons ```Wake On Leave``` and ```Wake Up Now```, which do as their names describe. 
 
+#### My Location
+  - Announces the user's location.
+
+#### Around Me
+  - Announces the areas around the user.
+
+#### Ahead of Me
+  - Announces things that are directly in front of the user.
+
 ## Sidebar
 
 #### Head Tracking Headphones
