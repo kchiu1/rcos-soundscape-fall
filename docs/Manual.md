@@ -70,6 +70,9 @@ This document describes how to operate the Soundscape App and access its feature
 #### Ahead of Me
   - Announces things that are directly in front of the user.
 
+#### Nearby Markers
+  - Announces the markers that are nearby
+  
 ## Sidebar
 
 #### Head Tracking Headphones
