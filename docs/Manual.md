@@ -100,18 +100,40 @@ This document describes how to operate the Soundscape App and access its feature
     - Change the sound (audio style) of the audio beacon
     - Enable Haptic Styles (Wand or Pulse)
       - Vibrate phone
+  - ```Volume```
+    - Alows you to change the volume of the beacon, the voice, and the sound effects using slidebars
+  - ```Head Tracking Headphones```
+    - Works the same as the head tracking button seen in the waffle button
+  - ```Siri Shortcuts(Beta)```
+    - Lists addable shortcuts for the users to say to siri to get information
+    - Examples include: "What's My Location?", "What's Around Me?", "Hear Markers Nearby", etc.
 
 ##### Media Controls
+  - Allows user to control Soundscape with their headphone buttons and with the media controls on the home page of their phone(lets the user pause soundscape)
+  - If media controls are active the user can not use other volumetric-based media like Spotify
 
 ##### Manage Callouts
+  - Manages the information that will be called out to the user
+  - Examples include: Allow Callouts, Places and Landmarks, Mobility, Distance to the Audio Beacon, and Repeat Callouts
 
 ##### Soundscape Street Preview
+  - Allows the user to include unnamed roads in the Soundscape Street Preview
 
 ##### Troubleshooting
+- Allows the user to see how accurate Soundscape sees their location in terms of a by foot radius
+- Offers a button to check the users audio
+- Lets the user clear all their stored map data
 
 ##### About
+- Provides a button that:
+  - Shows the current version updates
+  - The Privacy Policy
+  - The Services Agreement
+  - The Copyright Notices
+  - The Youtube Channel
 
 ##### Telemetry
+- Gives the user the option to stop sharing their Soundscape usage data
 
 
 #### Help & Tutorials
