@@ -116,21 +116,64 @@ This document describes how to operate the Soundscape App and access its feature
 
 #### Help & Tutorials
   - Help and tutorials gives general advice on how to use the functions of the app.
-  - There are mini tutorials for:
+  - Some of the options lead to articles, while others lead to actual tutorials.
+  - Most of the section has "help" rather than "tutorials", so this section is  mostly text based. 
+  - There are is help and tutorials(*) for:
     - ```Configuring Soundscape```
+      - ```Voices```
+        - Summary of how to use IOS voices to work with the soundscape app.
+      - ```Using Apple AirPods```
+        - Summary of how to use AirPods with Soundscape.
+      - ```Using Media Controls```
+        - Summary of how to use Media Controls with soundscape.
+      - ```App Setup *```
+        - How to setup the app. Provides a brief tutorial on how to setup the app (the tutorial is played upon opening the app).
+        - Swipe down to exit.
     - ```Beacons and Callouts```
-    - ```Home screen Buttons```
+      - ```Audio Beacon```
+        - Summary of audio beacon and its functions
+      - ```Automatic Callouts```
+        - Summary of how to use automatic callouts.
+    - ```Home Screen Buttons```
+      - ```My Location```
+        - Explains "My Location" on the homescreen.  
+      - ```Around Me```
+        - Explains "Around Me" function on the homescreen.
+      - ```Ahead of Me```
+        - Explains "Ahead of Me" on the homescreen.
+      - ```Nearby Markers```
+        - Explains "Nearby Markers" on the homescreen
     - ```Markers & Routes```
+      - ```Markers```
+        - Explains the functions of markers.
+      - ```Routes```
+        - Explains the function of routes.
+      - ```Creating Markers```
+        - Explains the creation of markers.
+      - ```Customizing Markers```
+        - Explains the customization of markers
     - ```Frequently Asked Questions```
+      - ```Frequently Asked Questions```
+        - Contains many subsections.
+      - ```Tips```
+        - Lists some tips in an essay format.
+      - ```Using Soundscape Offline```
+        - Explains soundscape's offline mode
     - ```Tutorials```
+      - ```Getting Started With Beacons *```
+        - Provides a tutorial on how to make an audio beacon step-by-step.
+      - ```Getting Started With Markers *```
+        - Provides a tutorial on how to make an Marker step-by-step.
     - ```More Help```
+      - ```Soundscape Community Support```
+        - Opens the support menu.
   - These sections provide help to new users.
 
 #### Send Feedback
   - Allows users to send feedback to the developers through email.
 
 #### Rate
-  - Redirects user to App Store to rate
+  - Redirects user to App Store to rate the app.
 
 #### Share
   - Opens the IOS ```share``` menu.
