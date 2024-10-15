@@ -202,3 +202,15 @@ This document describes how to operate the Soundscape App and access its feature
 
 #### Check Audio
   - Plays a sound to check if user audio is working (??)
+
+## Location Details
+
+#### Soundscape Street Preview
+
+##### Pathway
+ - To get to Soundscape Street Preview the user needs to go to the map of a certain location
+    - This can be done by either going to ```Places Nearby```, clicking on one of the various filters and clicking a location _OR_ clicking on the ```Current Location``` button
+- Once the user gets to the location details there will be a button titled ```Soundscape Street Preview```, which when pressed will bring the user to the Soundscape Street Preview
+
+##### Functionalities
+- x
