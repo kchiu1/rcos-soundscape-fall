@@ -101,7 +101,7 @@ This document describes how to operate the Soundscape App and access its feature
     - Enable Haptic Styles (Wand or Pulse)
       - Vibrate phone
   - ```Volume```
-    - Alows you to change the volume of the beacon, the voice, and the sound effects using slidebars
+    - Alows you to change the voTlume of the beacon, the voice, and the sound effects using slidebars
   - ```Head Tracking Headphones```
     - Works the same as the head tracking button seen in the waffle button
   - ```Siri Shortcuts(Beta)```
@@ -140,15 +140,19 @@ This document describes how to operate the Soundscape App and access its feature
   - Help and tutorials gives general advice on how to use the functions of the app.
   - Some of the options lead to articles, while others lead to actual tutorials.
   - Most of the section has "help" rather than "tutorials", so this section is  mostly text based. 
+  - The text segments are generally split into 3 parts: What is it?, When would I use it?, and How Does It Work?
+    - This way, the program can properly explain how and when the user would use the feature
+    - Other sections simply have a brief paragraph. 
   - There are is help and tutorials(*) for:
     - ```Configuring Soundscape```
       - ```Voices```
         - Summary of how to use IOS voices to work with the soundscape app.
+        - The IOS voice (the voice used in your Siri) is also the one being used in soundscape. 
       - ```Using Apple AirPods```
         - Summary of how to use AirPods with Soundscape.
       - ```Using Media Controls```
         - Summary of how to use Media Controls with soundscape.
-      - ```App Setup *```
+      - ```App Setup*```
         - How to setup the app. Provides a brief tutorial on how to setup the app (the tutorial is played upon opening the app).
         - Swipe down to exit.
     - ```Beacons and Callouts```
@@ -176,15 +180,18 @@ This document describes how to operate the Soundscape App and access its feature
         - Explains the customization of markers
     - ```Frequently Asked Questions```
       - ```Frequently Asked Questions```
+        - The frequently asked questions regarding to Soundscape are all listed here.
         - Contains many subsections.
       - ```Tips```
         - Lists some tips in an essay format.
       - ```Using Soundscape Offline```
         - Explains soundscape's offline mode
     - ```Tutorials```
-      - ```Getting Started With Beacons *```
+      - ```Getting Started With Beacons*```
         - Provides a tutorial on how to make an audio beacon step-by-step.
-      - ```Getting Started With Markers *```
+        - To close, users have to click skip tutorial.
+        - Its generally recommended to to do this with audio.
+      - ```Getting Started With Markers*```
         - Provides a tutorial on how to make an Marker step-by-step.
     - ```More Help```
       - ```Soundscape Community Support```
@@ -193,6 +200,7 @@ This document describes how to operate the Soundscape App and access its feature
 
 #### Send Feedback
   - Allows users to send feedback to the developers through email.
+  - The user will be prompted to use a preferred mail app.
 
 #### Rate
   - Redirects user to App Store to rate the app.
@@ -203,7 +211,17 @@ This document describes how to operate the Soundscape App and access its feature
 #### Check Audio
   - Plays a sound to check if user audio is working (??)
 
-## Location Details
+## Location/Marker Details
+Upon clicking on a location/marker, the user is given multiple options in order to determine their next course of action.
+
+#### Start Audio Beacon
+ - The user is redirected the homescreen where the audio beacon starts.
+
+#### Save As Marker
+ - The user is able to save the selected location as a marker. 
+ - The user can give an annotation
+ - The user can change the selected location to a location of their choice.
+
 
 #### Soundscape Street Preview
 
@@ -214,3 +232,11 @@ This document describes how to operate the Soundscape App and access its feature
 
 ##### Functionalities
 - x
+
+#### Share
+  - The app opens a new "Share" window which is different based on OS. 
+
+#### Map
+  - The map has additional options. You can navigate the map by scrolling.
+  - By pressing the left button, users can redirect themselves to a map application of choice (google, apple, etc).
+  - By pressing the right button, users can enter fullscreen mode. By pressing edit on the top right, they are able to move the location set on the map as an additional method for custom markers. 
