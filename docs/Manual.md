@@ -213,4 +213,12 @@ This document describes how to operate the Soundscape App and access its feature
 - Once the user gets to the location details there will be a button titled ```Soundscape Street Preview```, which when pressed will bring the user to the Soundscape Street Preview
 
 ##### Functionalities
-- x
+- Creates a digital way for the user to experience a certain route or pathway without physically walking in.(Creating a virtual map pathway)
+- By turning the users phone or facing a direction and clicking the ```GO``` button, the user can traverse a pathway
+- The ```Previous``` button lets the user return to the last position
+- The ```Explore Nearby``` search bar let the user search for a different location to start the Street Preview from
+- Map of starting location/audio beacon
+- ```Exit``` button in top left of screen
+- ```Diamond``` Button on *Top Right* determines whether or not streets on left or right are mentioned.
+    - If the button has a slash through it, then the side streets are mentioned
+
