@@ -205,12 +205,23 @@ This document describes how to operate the Soundscape App and access its feature
 
 ## Location Details
 
-#### Soundscape Street Preview
-
 ##### Pathway
- - To get to Soundscape Street Preview the user needs to go to the map of a certain location
+ - To get to Location Details the user needs to go to the map of a certain location
     - This can be done by either going to ```Places Nearby```, clicking on one of the various filters and clicking a location _OR_ clicking on the ```Current Location``` button
-- Once the user gets to the location details there will be a button titled ```Soundscape Street Preview```, which when pressed will bring the user to the Soundscape Street Preview
+
+#### Given Information
+- Location Name
+- Distance from location
+- Location Address (Nearest)
+
+#### Start Audio Beacon
+- Places Audio Beacon at location
+
+#### Save as Marker
+- Saves the location as a marker and asks the user for a ```Name```, ```Annotation```, and a ```Edit``` function to modify the location point
+- ```Cancel``` button in top left and ```Done``` button in top right
+
+#### Soundscape Street Preview
 
 ##### Functionalities
 - Creates a digital way for the user to experience a certain route or pathway without physically walking in.(Creating a virtual map pathway)
@@ -222,3 +233,10 @@ This document describes how to operate the Soundscape App and access its feature
 - ```Diamond``` Button on *Top Right* determines whether or not streets on left or right are mentioned.
     - If the button has a slash through it, then the side streets are mentioned
 
+#### Share
+- Lets user to share the location
+
+#### Map
+- Provides a top-view map containing the location at a point
+- ```Street Split``` button allows user to find the location on a navigation app of their choice: ```Apple Maps```, ```Google Maps```, ```Waze```, etc.
+- ```Zoom``` button lets user get a larger view of the map and edit the point location
