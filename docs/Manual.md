@@ -223,20 +223,38 @@ Upon clicking on a location/marker, the user is given multiple options in order 
  - The user can change the selected location to a location of their choice.
 
 
+##### Pathway
+ - To get to Location Details the user needs to go to the map of a certain location
+    - This can be done by either going to ```Places Nearby```, clicking on one of the various filters and clicking a location _OR_ clicking on the ```Current Location``` button
+
+#### Given Information
+- Location Name
+- Distance from location
+- Location Address (Nearest)
+
+#### Start Audio Beacon
+- Places Audio Beacon at location
+
+#### Save as Marker
+- Saves the location as a marker and asks the user for a ```Name```, ```Annotation```, and a ```Edit``` function to modify the location point
+- ```Cancel``` button in top left and ```Done``` button in top right
+
 #### Soundscape Street Preview
 
-##### Pathway
- - To get to Soundscape Street Preview the user needs to go to the map of a certain location
-    - This can be done by either going to ```Places Nearby```, clicking on one of the various filters and clicking a location _OR_ clicking on the ```Current Location``` button
-- Once the user gets to the location details there will be a button titled ```Soundscape Street Preview```, which when pressed will bring the user to the Soundscape Street Preview
-
 ##### Functionalities
-- x
+- Creates a digital way for the user to experience a certain route or pathway without physically walking in.(Creating a virtual map pathway)
+- By turning the users phone or facing a direction and clicking the ```GO``` button, the user can traverse a pathway
+- The ```Previous``` button lets the user return to the last position
+- The ```Explore Nearby``` search bar let the user search for a different location to start the Street Preview from
+- Map of starting location/audio beacon
+- ```Exit``` button in top left of screen
+- ```Diamond``` Button on *Top Right* determines whether or not streets on left or right are mentioned.
+    - If the button has a slash through it, then the side streets are mentioned
 
 #### Share
-  - The app opens a new "Share" window which is different based on OS. 
+- Lets user to share the location
 
 #### Map
-  - The map has additional options. You can navigate the map by scrolling.
-  - By pressing the left button, users can redirect themselves to a map application of choice (google, apple, etc).
-  - By pressing the right button, users can enter fullscreen mode. By pressing edit on the top right, they are able to move the location set on the map as an additional method for custom markers. 
+- Provides a top-view map containing the location at a point
+- ```Street Split``` button allows user to find the location on a navigation app of their choice: ```Apple Maps```, ```Google Maps```, ```Waze```, etc.
+- ```Zoom``` button lets user get a larger view of the map and edit the point location
