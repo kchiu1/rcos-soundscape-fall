@@ -33,12 +33,22 @@ class SettingsViewController: BaseTableViewController {
     private static let cellIdentifiers: [IndexPath: String] = [
         IndexPath(row: 0, section: Section.general.rawValue): "languageAndRegion",
         IndexPath(row: 1, section: Section.general.rawValue): "voice",
+        /**
         IndexPath(row: 2, section: Section.general.rawValue): "beaconSettings",
         IndexPath(row: 3, section: Section.general.rawValue): "volumeSettings",
         IndexPath(row: 4, section: Section.general.rawValue): "manageDevices",
         IndexPath(row: 5, section: Section.general.rawValue): "siriShortcuts",
+        **/
+        IndexPath(row: 2, section: Section.general.rawValue): "volumeSettings",
+        IndexPath(row: 3, section: Section.general.rawValue): "manageDevices",
+        IndexPath(row: 4, section: Section.general.rawValue): "siriShortcuts",
         
         IndexPath(row: 0, section: Section.audio.rawValue): "mixAudio",
+
+        IndexPath(row: 0, section: Section.audioBeacon.rawValue): "departureArrival",
+        IndexPath(row: 1, section: Section.audioBeacon.rawValue): "vicinityDistance",
+        IndexPath(row: 2, section: Section.audioBeacon.rawValue): "audioStyles",
+        IndexPath(row: 3, section: Section.audioBeacon.rawValue): "hapticStyles",
 
         IndexPath(row: CalloutsRow.all.rawValue, section: Section.callouts.rawValue): "allCallouts",
         IndexPath(row: CalloutsRow.poi.rawValue, section: Section.callouts.rawValue): "poiCallouts",
