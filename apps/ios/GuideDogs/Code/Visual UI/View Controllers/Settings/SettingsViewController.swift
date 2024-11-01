@@ -20,6 +20,7 @@ class SettingsViewController: BaseTableViewController {
         case troubleshooting = 4
         case about = 5
         case telemetry = 6
+        case audioBeacon = 7
     }
     
     private enum CalloutsRow: Int, CaseIterable {
@@ -132,6 +133,18 @@ class SettingsViewController: BaseTableViewController {
             cell.parent = self
             
             return cell
+
+        case .audioBeacon:
+            let cell = tableView.dequeueReusableCell(withIdentifier: identifier ?? "default", for: indexPath) as! BeaconSettingsTableViewCell
+            cell.parent = self
+            switch indexPath.row {
+            case 0: cell.type = .departureArrival
+            case 1: cell.type = .vicinityDistance
+            case 2: cell.type = .audioStyles
+            case 3: cell.type = .hapticStyles
+            default: break
+            }
+            return cell
             
         case .audio:
             let cell = tableView.dequeueReusableCell(withIdentifier: identifier ?? "default", for: indexPath) as! MixAudioSettingCell
@@ -154,6 +167,10 @@ class SettingsViewController: BaseTableViewController {
         case .audio: return GDLocalizedString("settings.audio.media_controls")
         case .callouts: return GDLocalizedString("menu.manage_callouts")
         case .about: return GDLocalizedString("settings.section.about")
+
+        //location `settings.beacon` is not implemented, it should have an existing thing
+        case .beacon: return "TODO: Implement beacon localized strings (should exist already) EG settings.audioBeacon" 
+        
         case .streetPreview: return GDLocalizedString("preview.title")
         case .troubleshooting: return GDLocalizedString("settings.section.troubleshooting")
         case .telemetry: return GDLocalizedString("settings.section.telemetry")
